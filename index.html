@@ -15,7 +15,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             text-align: center;
         }
 
@@ -28,6 +28,12 @@
             font-size: 3em;
             margin-bottom: 0.3em;
             letter-spacing: 3px;
+        }
+
+        h2 {
+            margin-top: 60px;
+            font-weight: 400;
+            letter-spacing: 2px;
         }
 
         p {
@@ -44,8 +50,24 @@
             opacity: 0.6;
         }
 
+        .projects {
+            margin-top: 30px;
+        }
+
+        .projects a {
+            display: block;
+            margin: 12px 0;
+            color: #00d4ff;
+            text-decoration: none;
+            font-size: 1.05em;
+        }
+
+        .projects a:hover {
+            text-decoration: underline;
+        }
+
         .footer {
-            margin-top: 50px;
+            margin-top: 60px;
             font-size: 0.9em;
             opacity: 0.7;
         }
@@ -64,6 +86,15 @@
             technologies, and interdisciplinary thinking. It is a place to learn, build, test,
             reflect, and explore new perspectives.
         </p>
+
+        <!-- Projects Section -->
+        <h2>Projects</h2>
+
+        <div class="projects">
+            <a href="https://www.myphysicslab.com/engine2D/collision-en.html" target="_blank">
+                Rigid Body Collisions
+            </a>
+        </div>
 
         <div class="footer">
             February 16, 2026 · Created by Han and Kui
