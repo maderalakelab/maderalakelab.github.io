@@ -5,13 +5,13 @@
     <title>Madera Lab</title>
     <link rel="icon" type="image/png" href="favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <style>
         body {
             margin: 0;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-            color: white;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: #ffffff;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -20,55 +20,55 @@
         }
 
         .container {
-            max-width: 800px;
-            padding: 40px;
+            max-width: 850px;
+            padding: 60px 40px;
         }
 
         h1 {
             font-size: 3em;
-            margin-bottom: 0.3em;
-            letter-spacing: 3px;
+            letter-spacing: 4px;
+            margin-bottom: 10px;
         }
 
         h2 {
             margin-top: 60px;
-            font-weight: 400;
+            font-weight: 500;
             letter-spacing: 2px;
+            opacity: 0.95;
         }
 
         p {
-            line-height: 1.6;
-            font-size: 1.1em;
-            opacity: 0.9;
+            line-height: 1.7;
+            font-size: 1.15em;
+            opacity: 0.92;
+            max-width: 650px;
+            margin: 20px auto;
         }
 
         .divider {
-            width: 60px;
+            width: 70px;
             height: 2px;
-            background: white;
-            margin: 25px auto;
+            background: #ffffff;
+            margin: 20px auto 30px auto;
             opacity: 0.6;
-        }
-
-        .projects {
-            margin-top: 30px;
         }
 
         .projects a {
             display: block;
-            margin: 12px 0;
-            color: #00d4ff;
+            margin: 14px 0;
+            color: #ffd166;
             text-decoration: none;
-            font-size: 1.05em;
+            font-size: 1.1em;
+            transition: opacity 0.2s ease;
         }
 
         .projects a:hover {
-            text-decoration: underline;
+            opacity: 0.75;
         }
 
-        .footer {
-            margin-top: 60px;
-            font-size: 0.9em;
+        footer {
+            margin-top: 80px;
+            font-size: 0.95em;
             opacity: 0.7;
         }
     </style>
@@ -76,29 +76,34 @@
 
 <body>
     <div class="container">
+
         <h1>Madera Lab</h1>
 
-        <div class="divider"></div>
-
-        <p>
-            Madera Lab is a personal exploration space created out of curiosity and passion.
-            It serves as an open environment for experimenting with ideas,
-            technologies, and interdisciplinary thinking. It is a place to learn, build, test,
-            reflect, and explore new perspectives.
-        </p>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About</h2>
+            <div class="divider"></div>
+            <p>
+                Where curiosity meets science and play.
+            </p>
+        </section>
 
         <!-- Projects Section -->
-        <h2>Projects</h2>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="divider"></div>
+            <div class="projects">
+                <a href="https://maderalab.github.io/maderalab/" target="_blank">
+                    ⚛︎ Madera Lab Site
+                </a>
+            </div>
+        </section>
 
-        <div class="projects">
-            <a href="https://www.myphysicslab.com/engine2D/collision-en.html" target="_blank">
-                Rigid Body Collisions
-            </a>
-        </div>
-
-        <div class="footer">
+        <!-- Footer -->
+        <footer>
             February 16, 2026 · Created by Han and Kui
-        </div>
+        </footer>
+
     </div>
 </body>
 </html>
