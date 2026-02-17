@@ -1,2 +1,2 @@
-# maderalakelab
-Madera Lake Lab
+# maderalab
+Madera Lab
